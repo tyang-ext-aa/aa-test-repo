@@ -8,5 +8,6 @@ node('Yang Tao'){
       echo "2"
       sh "ls -a"
       sh "sh test.sh"
+      echo "MIRROR_REPOS_PATH :" + env.MIRROR_REPOS_PATH
     }
 }
